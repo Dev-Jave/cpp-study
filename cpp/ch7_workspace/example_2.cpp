@@ -24,6 +24,10 @@ public:
     void printInfo() { 
         cout << _studentID << " " << _name << endl;
     }
+    
+    string getInfo() {
+        return _name + to_string(_studentID);
+    }
 }; // class를 마치면 세미콜론을 적을 것.
 
 int main() {
@@ -32,6 +36,9 @@ int main() {
     
     s1.printInfo();
     s2.printInfo();
+    
+    cout << s1.getInfo() << endl;
+    cout << s2.getInfo() << endl;
     
     return 0;
 }
