@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		721DB91D283B3C2E00AC2C9F /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		721DB91D283B3C2E00AC2C9F /* ch7_workspace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch7_workspace; sourceTree = BUILT_PRODUCTS_DIR; };
 		721DB920283B3C2E00AC2C9F /* example_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_1.cpp; sourceTree = "<group>"; };
 		728B8998283BCA4C006D3D26 /* example_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_2.cpp; sourceTree = "<group>"; };
 		728B89A0283BD1EB006D3D26 /* example_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_3.cpp; sourceTree = "<group>"; };
@@ -56,7 +56,6 @@
 		721DB914283B3C2E00AC2C9F = {
 			isa = PBXGroup;
 			children = (
-				728B89AF283CA5AB006D3D26 /* ch8_workspace */,
 				721DB91F283B3C2E00AC2C9F /* ch7_workspace */,
 				721DB91E283B3C2E00AC2C9F /* Products */,
 			);
@@ -65,7 +64,7 @@
 		721DB91E283B3C2E00AC2C9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				721DB91D283B3C2E00AC2C9F /* cpp */,
+				721DB91D283B3C2E00AC2C9F /* ch7_workspace */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,19 +92,12 @@
 			path = ch7_workspace;
 			sourceTree = "<group>";
 		};
-		728B89AF283CA5AB006D3D26 /* ch8_workspace */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ch8_workspace;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		721DB91C283B3C2E00AC2C9F /* cpp */ = {
+		721DB91C283B3C2E00AC2C9F /* ch7_workspace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 721DB924283B3C2E00AC2C9F /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildConfigurationList = 721DB924283B3C2E00AC2C9F /* Build configuration list for PBXNativeTarget "ch7_workspace" */;
 			buildPhases = (
 				721DB919283B3C2E00AC2C9F /* Sources */,
 				721DB91A283B3C2E00AC2C9F /* Frameworks */,
@@ -115,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = cpp;
+			name = ch7_workspace;
 			productName = cpp;
-			productReference = 721DB91D283B3C2E00AC2C9F /* cpp */;
+			productReference = 721DB91D283B3C2E00AC2C9F /* ch7_workspace */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 721DB918283B3C2E00AC2C9F /* Build configuration list for PBXProject "cpp" */;
+			buildConfigurationList = 721DB918283B3C2E00AC2C9F /* Build configuration list for PBXProject "ch7_workspace" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				721DB91C283B3C2E00AC2C9F /* cpp */,
+				721DB91C283B3C2E00AC2C9F /* ch7_workspace */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		721DB918283B3C2E00AC2C9F /* Build configuration list for PBXProject "cpp" */ = {
+		721DB918283B3C2E00AC2C9F /* Build configuration list for PBXProject "ch7_workspace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				721DB922283B3C2E00AC2C9F /* Debug */,
@@ -301,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		721DB924283B3C2E00AC2C9F /* Build configuration list for PBXNativeTarget "cpp" */ = {
+		721DB924283B3C2E00AC2C9F /* Build configuration list for PBXNativeTarget "ch7_workspace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				721DB925283B3C2E00AC2C9F /* Debug */,
