@@ -19,7 +19,7 @@ private:
 public:
     Student(int id, string name)
     : id{ id }, name { name } {
-        countTotal++;   
+        countTotal++;
     }
     
     static int getCountTotal() {
