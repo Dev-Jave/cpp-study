@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		728B89F7284148B0006D3D26 /* example_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B89F5284145FD006D3D26 /* example_10.cpp */; };
+		728B8A0528424574006D3D26 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A0328424574006D3D26 /* student.cpp */; };
+		728B8A072842457F006D3D26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A062842457F006D3D26 /* main.cpp */; };
+		728B8A08284250E4006D3D26 /* student.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A0428424574006D3D26 /* student.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,14 @@
 		728B89F128414393006D3D26 /* example_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_8.cpp; sourceTree = "<group>"; };
 		728B89F32841448E006D3D26 /* example_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_9.cpp; sourceTree = "<group>"; };
 		728B89F5284145FD006D3D26 /* example_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_10.cpp; sourceTree = "<group>"; };
+		728B89F828422AF7006D3D26 /* example_11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_11.cpp; sourceTree = "<group>"; };
+		728B89FA28422BB7006D3D26 /* example_12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_12.cpp; sourceTree = "<group>"; };
+		728B89FC28422EA8006D3D26 /* example_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_13.cpp; sourceTree = "<group>"; };
+		728B89FE28422F8E006D3D26 /* example_14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_14.cpp; sourceTree = "<group>"; };
+		728B8A00284234FB006D3D26 /* example_15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_15.cpp; sourceTree = "<group>"; };
+		728B8A0328424574006D3D26 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		728B8A0428424574006D3D26 /* student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = student.hpp; sourceTree = "<group>"; };
+		728B8A062842457F006D3D26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 		728B89C4283DCC9F006D3D26 = {
 			isa = PBXGroup;
 			children = (
+				728B8A022842447A006D3D26 /* programming_work6 */,
 				728B89D7283DCD23006D3D26 /* programming_work7 */,
 				728B89D0283DCC9F006D3D26 /* example_1.cpp */,
 				728B89E5283F45C8006D3D26 /* example_2.cpp */,
@@ -64,6 +75,11 @@
 				728B89F128414393006D3D26 /* example_8.cpp */,
 				728B89F32841448E006D3D26 /* example_9.cpp */,
 				728B89F5284145FD006D3D26 /* example_10.cpp */,
+				728B89F828422AF7006D3D26 /* example_11.cpp */,
+				728B89FA28422BB7006D3D26 /* example_12.cpp */,
+				728B89FC28422EA8006D3D26 /* example_13.cpp */,
+				728B89FE28422F8E006D3D26 /* example_14.cpp */,
+				728B8A00284234FB006D3D26 /* example_15.cpp */,
 				728B89CE283DCC9F006D3D26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +100,16 @@
 				728B89DC283DCD76006D3D26 /* student.h */,
 			);
 			path = programming_work7;
+			sourceTree = "<group>";
+		};
+		728B8A022842447A006D3D26 /* programming_work6 */ = {
+			isa = PBXGroup;
+			children = (
+				728B8A0328424574006D3D26 /* student.cpp */,
+				728B8A0428424574006D3D26 /* student.hpp */,
+				728B8A062842457F006D3D26 /* main.cpp */,
+			);
+			path = programming_work6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728B89F7284148B0006D3D26 /* example_10.cpp in Sources */,
+				728B8A08284250E4006D3D26 /* student.hpp in Sources */,
+				728B8A0528424574006D3D26 /* student.cpp in Sources */,
+				728B8A072842457F006D3D26 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
