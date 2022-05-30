@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		728B8A0528424574006D3D26 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A0328424574006D3D26 /* student.cpp */; };
-		728B8A072842457F006D3D26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A062842457F006D3D26 /* main.cpp */; };
-		728B8A08284250E4006D3D26 /* student.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A0428424574006D3D26 /* student.hpp */; };
+		728B8A1E28428B16006D3D26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B89D8283DCD53006D3D26 /* main.cpp */; };
+		728B8A1F28428B16006D3D26 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B89DA283DCD6A006D3D26 /* student.cpp */; };
+		728B8A2028428B16006D3D26 /* student.h in Sources */ = {isa = PBXBuildFile; fileRef = 728B89DC283DCD76006D3D26 /* student.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,9 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728B8A08284250E4006D3D26 /* student.hpp in Sources */,
-				728B8A0528424574006D3D26 /* student.cpp in Sources */,
-				728B8A072842457F006D3D26 /* main.cpp in Sources */,
+				728B8A1E28428B16006D3D26 /* main.cpp in Sources */,
+				728B8A1F28428B16006D3D26 /* student.cpp in Sources */,
+				728B8A2028428B16006D3D26 /* student.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
