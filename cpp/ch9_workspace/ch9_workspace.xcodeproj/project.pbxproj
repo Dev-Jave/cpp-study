@@ -10,6 +10,7 @@
 		728B8A26284467DF006D3D26 /* example_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A25284467DF006D3D26 /* example_5.cpp */; };
 		728B8A28284468E6006D3D26 /* fraction.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A27284468E6006D3D26 /* fraction.hpp */; };
 		728B8A2B28446AE0006D3D26 /* fraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A2A28446AE0006D3D26 /* fraction.cpp */; };
+		728B8A2D28465150006D3D26 /* example_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 728B8A2C28465150006D3D26 /* example_7.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		728B8A25284467DF006D3D26 /* example_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_5.cpp; sourceTree = "<group>"; };
 		728B8A27284468E6006D3D26 /* fraction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fraction.hpp; sourceTree = "<group>"; };
 		728B8A2A28446AE0006D3D26 /* fraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fraction.cpp; sourceTree = "<group>"; };
+		728B8A2C28465150006D3D26 /* example_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_7.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				728B8A27284468E6006D3D26 /* fraction.hpp */,
 				728B8A2A28446AE0006D3D26 /* fraction.cpp */,
+				728B8A2C28465150006D3D26 /* example_7.cpp */,
 			);
 			name = example_6;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728B8A2D28465150006D3D26 /* example_7.cpp in Sources */,
 				728B8A26284467DF006D3D26 /* example_5.cpp in Sources */,
 				728B8A2B28446AE0006D3D26 /* fraction.cpp in Sources */,
 				728B8A28284468E6006D3D26 /* fraction.hpp in Sources */,
