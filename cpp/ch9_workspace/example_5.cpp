@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int& fun1() {
+int& fun1() {        // Reference Type return
     int a{ 5 };
     return a;
 }
@@ -17,6 +17,7 @@ void fun2() {
 
 int main() {
     int& r = fun1();
+    cout << r << endl;
     r = 7;
     cout << r << endl;
     fun2();  
