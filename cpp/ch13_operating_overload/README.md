@@ -65,6 +65,31 @@ C++은 연산자라는 기호를 사용하여 정수와 부동 소수점 등의 
 ### 2) 연산자의 범주
 
 ### 3) 연산자 오버로드 규칙
+* 우선 순위 : 연산자 우선 순위는 변경할 수 없음.
+* 결합 방향 : 연산자 결합 방향도 변경할 수 없음.
+
 ## 03. 멤버 함수로 오버로드
+### 1) 단항 연산자
+단항 연산자는 호스트 객체가 곧 피연산자이다. 따라서 매개변수 객체가 추가로 필요하지 않다.
+```cpp
+// 선언
+const Fraction operator+() const;
+const Fraction operator-() const;
+
+const Fraction Fraction::operator+() const {
+  Fraction temp(+numer, denum); // 새로운 객체 생성
+  return temp;
+}
+
+const Fraction Fraction::operator+() const {
+  Fraction temp(+numer, denum); // 새로운 객체 생성
+  return temp;
+}
+const Fraction
+
+// 음수 연산자 정의
+```
+### 2) 이항 연산자
+### 3) 이외의 연산자
 ## 04. 비멤버 함수로 오버로드
 ## 05. 자료형 변환
