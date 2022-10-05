@@ -8,10 +8,10 @@ using namespace std;
 class Point{
     friend ostream& operator<<(ostream& out, const Point& right);
     friend istream& operator>>(istream& in, Point& right);
-    friend Point operator*(const Point& right, const Point& left);
-    friend Point operator-=(const Point& right, const Point& left);
-    friend Point operator++(const Point&, int); // postfix increment
-    friend bool operator!=(const Point&, const Point&);
+    friend int operator*(const Point& left, const Point& right);
+    friend Point& operator-=(Point& left, const Point& right);
+    friend Point operator++(Point&, int); // postfix increment
+    friend bool operator!=(const Point& left, const Point& right);
     friend bool operator<=(const Point&, const Point&);
 public:
     explicit Point(int x = 0, int y = 0);
