@@ -1,5 +1,3 @@
-// parameter constructor
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -30,3 +28,7 @@ int main() {
     
     return 0;
 }
+
+/// **Summary**
+/// 위와 같이 생성자가 하나라도 있는 경우 기본 생성자를 사용하려면
+/// 내가 직접 기본 생성자를 선언해주어야 함.

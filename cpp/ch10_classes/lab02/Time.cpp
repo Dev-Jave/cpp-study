@@ -1,4 +1,3 @@
-//
 //  Time.cpp
 
 #include <iomanip> // setw(), setfill() 등 스트림 조정
@@ -16,6 +15,7 @@ void Time::setTime(int h, int m, int s) {
         throw invalid_argument("hour, minute and/or second was out or range");
     }
 }
+
 string Time::toUniversalString() const {
     ostringstream output;
     
@@ -34,3 +34,7 @@ string Time::toStandardString() const {
     
     return output.str();
 }
+
+/// **Summary**
+/// ```cout << A << ```와 같이 A라는 string 변수를 cout할 경우, 콘솔 창에 해당 string 값이 인출된다.
+/// 위의 ostringstream은 ostringstream 객체인 output에 출력 값을 입력할 경우 해당 객체에 값이 저장된다.
